@@ -11,4 +11,4 @@ RUN echo -e "jenkins ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
 USER jenkins
 ENV USER jenkins
 CMD java -jar /usr/lib/jenkins/jenkins.war
-COPY templates/index.html
+COPY index.html
